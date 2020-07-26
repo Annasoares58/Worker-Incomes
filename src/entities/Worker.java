@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import enums.Department;
 import enums.WorkerLevel;
 
 public class Worker {
@@ -49,7 +50,7 @@ public class Worker {
 		}
 		
 		public String getName() {
-			return name;
+			return this.name;
 		}
 
 		public void setName(String name) {
@@ -57,7 +58,7 @@ public class Worker {
 		}
 
 		public WorkerLevel getLevel() {
-			return level;
+			return this.level;
 		}
 
 		public void setLevel(WorkerLevel level) {
@@ -65,7 +66,7 @@ public class Worker {
 		}
 
 		public Double getBaseSalary() {
-			return baseSalary;
+			return this.baseSalary;
 		}
 
 		public void setBaseSalary(Double baseSalary) {
@@ -73,7 +74,7 @@ public class Worker {
 		}
 
 		public Department getDepartment() {
-			return department;
+			return this.department;
 		}
 
 		public void setDepartment(Department department) {
