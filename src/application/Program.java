@@ -20,8 +20,6 @@ public class Program {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
 		Worker worker = new Worker();
-		
-
 		System.out.println("*Enter Worker Data*");
 		System.out.print("Name: ");
 		worker.setName(sc.nextLine());
